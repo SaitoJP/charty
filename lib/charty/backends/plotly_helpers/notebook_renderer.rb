@@ -23,7 +23,7 @@ module Charty
                   require.undef("plotly");
                   requirejs.config({
                     paths: {
-                      'plotly': ['https://cdn.plot.ly/plotly-latest.min']
+                      'plotly': ['https://cdn.plot.ly/plotly-2.4.2.min.js']
                     }
                   });
                   require(['plotly'], function (Plotly) {

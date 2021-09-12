@@ -15,7 +15,7 @@ module Charty
         end
 
         PLOTLY_URL = "https://plot.ly".freeze
-        PLOTLY_LATEST_CDN_URL = "https://cdn.plot.ly/plotly-latest.min.js".freeze
+        PLOTLY_LATEST_CDN_URL = "https://cdn.plot.ly/plotly-2.4.2.min.js".freeze
         MATHJAX_CDN_URL = ("https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js").freeze
 
         DEFAULT_WIDTH = "100%".freeze

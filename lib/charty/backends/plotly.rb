@@ -27,7 +27,7 @@ module Charty
         end
 
         def plotly_src
-          @plotly_src ||= 'https://cdn.plot.ly/plotly-latest.min.js'
+          @plotly_src ||= 'https://cdn.plot.ly/plotly-2.4.2.min.js'
         end
       end
 
@@ -752,7 +752,7 @@ module Charty
           <head>
           <meta charset="utf-8">
           <title>%{title}</title>
-          <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+          <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
           </head>
           <body>
           <div id="%{id}" style="width: 100%%; height:100%%;"></div>
@@ -889,7 +889,7 @@ module Charty
               %{mathjax_config}
               require.config({
                 paths: {
-                  plotly: "https://cdn.plot.ly/plotly-latest.min"
+                  plotly: "https://cdn.plot.ly/plotly-2.4.2.min.js"
                 }
               });
             </script>
